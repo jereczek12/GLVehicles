@@ -1,10 +1,10 @@
-import lombok.AllArgsConstructor;
+package vehicles;
+
 import lombok.Getter;
 
 @Getter
 public class Car extends Vehicle {
-    private final String type = "Car";
     public Car(String manufacturer,double maxVelocity){
-        super(manufacturer, maxVelocity, "Car");
+        super(manufacturer, maxVelocity);
     }
 }

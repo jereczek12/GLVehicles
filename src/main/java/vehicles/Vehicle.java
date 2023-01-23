@@ -1,3 +1,5 @@
+package vehicles;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,5 +10,4 @@ import lombok.Setter;
 public abstract class Vehicle {
     private final String manufacturer;
     private final double maxVelocity;
-    private final String type;
 }
